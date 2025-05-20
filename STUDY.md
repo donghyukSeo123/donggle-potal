@@ -21,6 +21,19 @@
 - `app.listen(PORT)`: 지정한 포트에서 서버 실행 및 대기  
 
 
+### VS코드와 Git 연동 
+
+Git 설치와 사용자 정보 설정, GitHub 개인 액세스 토큰 생성 후,
+
+- VS코드에서 로컬 프로젝트를 Git 저장소로 초기화 (`git init`)  
+- 변경 파일 스테이징 (`git add .`) 및 커밋 (`git commit -m "Initial commit"`)  
+
+- GitHub에서 원격 저장소 생성 및 URL 복사  
+- 로컬 저장소에 원격 연결 (`git remote add origin <URL>`)  
+- 최초 푸시 시 토큰 인증 후 원격 저장소에 코드 업로드 (`git push -u origin main`)  
+
+- VS코드 내에서 변경 내용 확인, 스테이징, 커밋, 푸시 작업 가능  
+- 원격 저장소 최신 상태 가져오기 (`git pull`) 수행 가능
 
  
 
